@@ -28,8 +28,8 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="bg-primary border-4 border-background p-3 inline-block mb-6 transform -rotate-2">
-              <span className="text-2xl font-bold text-primary-foreground">
-                CUT<span className="text-secondary">FRAME</span>
+              <span className="text-xl font-bold text-primary-foreground">
+                MUHAMMED<span className="text-secondary"> SHADIL</span>
               </span>
             </div>
             <p className="text-lg text-background/80 max-w-md mb-6">
@@ -82,7 +82,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-accent flex-shrink-0 mt-1" />
-                <span>123 Creative Street<br />Los Angeles, CA 90210</span>
+                <span>Kozhikode<br />Kerala, India</span>
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t-4 border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60">
-            © 2024 CUTFRAME. All rights reserved.
+            © 2024 MUHAMMED SHADIL. All rights reserved.
           </p>
           <div className="flex gap-6 text-background/60">
             <Link to="/privacy" className="hover:text-primary transition-colors">Privacy</Link>
