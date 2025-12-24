@@ -9,10 +9,10 @@ const AboutSection = () => {
   const isContentInView = useInView(contentRef, { once: true, margin: "-100px" });
 
   const values = [
-    { icon: Zap, title: "Speed", description: "We move fast without breaking things" },
-    { icon: Rocket, title: "Innovation", description: "Always pushing creative boundaries" },
-    { icon: Heart, title: "Passion", description: "We love what we do, and it shows" },
-    { icon: Users, title: "Collaboration", description: "Your vision, our expertise" },
+    { icon: Zap, title: "Results", description: "Data-driven strategies that deliver" },
+    { icon: Rocket, title: "Creativity", description: "Fresh ideas that stand out" },
+    { icon: Heart, title: "Passion", description: "We love seeing your brand grow" },
+    { icon: Users, title: "Partnership", description: "Your success is our success" },
   ];
 
   return (
@@ -75,19 +75,19 @@ const AboutSection = () => {
             className="space-y-8"
           >
             <p className="text-xl md:text-2xl leading-relaxed">
-              We're a <span className="bg-primary px-2 font-bold">tight-knit crew</span> of editors, 
-              motion designers, and creative strategists who believe every frame counts.
+              I'm <span className="bg-primary px-2 font-bold">Muhammed Shadil</span> - a digital marketing 
+              specialist and videographer based in Kozhikode, Kerala.
             </p>
             
             <p className="text-lg text-muted-foreground">
-              Founded in a garage with nothing but passion and a pirated copy of Premiere 
-              (we're legal now, promise), CUTFRAME has grown into a studio trusted by brands 
-              who refuse to blend in.
+              With expertise in social media management, content strategy, and professional 
+              videography, I help brands establish a powerful online presence that converts 
+              followers into customers.
             </p>
 
             <p className="text-lg text-muted-foreground">
-              We've edited everything from TikTok ads that broke the internet to documentaries 
-              that made people cry. Whatever your vision, we've got the skills to make it reality.
+              From Instagram reels that go viral to complete brand campaigns, I deliver 
+              creative solutions that make your business stand out in the digital space.
             </p>
 
             {/* Values grid */}

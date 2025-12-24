@@ -16,7 +16,7 @@ const Footer = () => {
                 Let's create something that breaks the internet.
               </p>
             </div>
-            <a href="mailto:hello@cutframe.studio">
+            <a href="mailto:muhammedshadil021@gmail.com">
               <button className="brutal-button bg-background text-foreground border-background whitespace-nowrap">
                 Get Started
               </button>
@@ -33,8 +33,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-lg text-background/80 max-w-md mb-6">
-              Bold video editing that cuts through the noise. We craft scroll-stopping 
-              content that demands attention.
+              Digital marketing & videography specialist based in Kozhikode. 
+              Helping brands grow with strategic SMM and stunning visuals.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-12 h-12 bg-background text-foreground border-4 border-background flex items-center justify-center hover:bg-primary transition-colors">
@@ -70,14 +70,14 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-primary" />
-                <a href="mailto:hello@cutframe.studio" className="hover:text-primary transition-colors">
-                  hello@cutframe.studio
+                <a href="mailto:muhammedshadil021@gmail.com" className="hover:text-primary transition-colors">
+                  muhammedshadil021@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-secondary" />
-                <a href="tel:+1234567890" className="hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+917356889027" className="hover:text-primary transition-colors">
+                  +91 7356889027
                 </a>
               </li>
               <li className="flex items-start gap-3">
