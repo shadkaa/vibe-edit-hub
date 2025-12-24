@@ -6,30 +6,30 @@ import { Zap, Target, Sparkles, TrendingUp } from "lucide-react";
 const hooks = [
   {
     icon: Zap,
-    title: "LIGHTNING FAST",
-    subtitle: "48-hour turnaround",
-    description: "Rush deadlines? We thrive on them. Get your edits back before your coffee gets cold.",
+    title: "SMM MASTERY",
+    subtitle: "Social Media Management",
+    description: "Dominate Instagram, Facebook, YouTube & more. Strategic content that builds communities and drives engagement.",
     color: "bg-primary",
   },
   {
     icon: Target,
-    title: "VIRAL PRECISION",
-    subtitle: "Algorithm-optimized",
-    description: "Every cut, transition, and beat drop is engineered for maximum engagement.",
+    title: "TARGETED ADS",
+    subtitle: "ROI-Driven Campaigns",
+    description: "Every rupee counts. Our data-driven ad campaigns deliver real results and measurable growth.",
     color: "bg-secondary",
   },
   {
     icon: Sparkles,
-    title: "SCROLL STOPPERS",
-    subtitle: "Thumb-stopping content",
-    description: "In a sea of content, we make sure your videos are the ones people can't ignore.",
+    title: "PRO VIDEOGRAPHY",
+    subtitle: "Cinematic Excellence",
+    description: "From product shoots to brand films, we capture moments that tell your story beautifully.",
     color: "bg-accent",
   },
   {
     icon: TrendingUp,
-    title: "GROWTH FOCUSED",
-    subtitle: "Results that matter",
-    description: "We don't just edit videos. We craft growth engines for your brand.",
+    title: "BRAND GROWTH",
+    subtitle: "Full-Stack Marketing",
+    description: "SEO, content strategy, influencer collabs - everything your brand needs to scale.",
     color: "bg-primary",
   },
 ];
@@ -89,12 +89,12 @@ const HooksSection = () => {
           className="text-center mb-16"
         >
           <span className="brutal-button bg-secondary text-secondary-foreground text-sm inline-block mb-6">
-            ✦ WHY CUTFRAME?
+            ✦ WHAT WE DO
           </span>
           <h2 className="text-4xl md:text-6xl font-bold">
             NOT YOUR AVERAGE
             <span className="block bg-primary inline-block px-4 mt-2 border-4 border-foreground shadow-brutal">
-              EDIT SHOP
+              AGENCY
             </span>
           </h2>
         </motion.div>
@@ -119,7 +119,7 @@ const HooksSection = () => {
           >
             {[...Array(10)].map((_, i) => (
               <span key={i} className="text-2xl font-bold text-background">
-                BOLD EDITS ✦ VIRAL CONTENT ✦ FAST DELIVERY ✦
+                SMM EXPERT ✦ VIDEOGRAPHY ✦ DIGITAL MARKETING ✦ KOZHIKODE ✦
               </span>
             ))}
           </motion.div>

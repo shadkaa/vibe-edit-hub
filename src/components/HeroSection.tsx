@@ -27,15 +27,15 @@ const HeroSection = () => {
               className="inline-block"
             >
               <span className="brutal-button bg-accent text-accent-foreground text-sm">
-                ✦ VIDEO EDITING STUDIO
+                ✦ DIGITAL MARKETING & VIDEOGRAPHY
               </span>
             </motion.div>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-none">
-              <span className="block">CUTS THAT</span>
-              <span className="block text-stroke text-transparent">DEMAND</span>
+              <span className="block">GROW YOUR</span>
+              <span className="block text-stroke text-transparent">BRAND</span>
               <span className="block bg-primary inline-block px-4 border-4 border-foreground shadow-brutal transform -rotate-1">
-                ATTENTION
+                ONLINE
               </span>
             </h1>
 
@@ -45,8 +45,8 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl text-muted-foreground max-w-lg"
             >
-              We transform raw footage into scroll-stopping content. Bold edits. 
-              Viral potential. Zero compromise.
+              Digital marketing, social media management & stunning videography. 
+              Based in Kozhikode, serving brands worldwide.
             </motion.p>
 
             <motion.div
