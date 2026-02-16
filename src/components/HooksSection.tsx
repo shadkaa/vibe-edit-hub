@@ -6,30 +6,30 @@ import { Zap, Target, Sparkles, TrendingUp } from "lucide-react";
 const hooks = [
   {
     icon: Zap,
-    title: "SMM MASTERY",
+    title: "SMM FOR GROWTH",
     subtitle: "Social Media Management",
-    description: "Dominate Instagram, Facebook, YouTube & more. Strategic content that builds communities and drives engagement.",
+    description: "Complete management of your social media accounts so you can focus on running your business. We plan, create, and optimize content to attract and engage local customers.",
     color: "bg-primary",
   },
   {
     icon: Target,
-    title: "TARGETED ADS",
-    subtitle: "ROI-Driven Campaigns",
-    description: "Every rupee counts. Our data-driven ad campaigns deliver real results and measurable growth.",
+    title: "SOCIAL ADS",
+    subtitle: "Social Media Advertising",
+    description: "Facebook and Instagram ad campaigns designed to attract local customers and generate quality leads for your business.",
     color: "bg-secondary",
   },
   {
     icon: Sparkles,
-    title: "PRO VIDEOGRAPHY",
-    subtitle: "Cinematic Excellence",
-    description: "From product shoots to brand films, we capture moments that tell your story beautifully.",
+    title: "VIDEO & REELS",
+    subtitle: "Video Content and Reels Editing",
+    description: "Professional video editing services to increase reach, engagement, and visibility on social media platforms.",
     color: "bg-accent",
   },
   {
     icon: TrendingUp,
-    title: "BRAND GROWTH",
-    subtitle: "Full-Stack Marketing",
-    description: "SEO, content strategy, influencer collabs - everything your brand needs to scale.",
+    title: "LOCAL EXPERTISE",
+    subtitle: "Kozhikode & Kerala Focus",
+    description: "Strong understanding of the Kozhikode and Kerala market. Data-driven social media strategies with high-quality video and reel content that converts viewers into customers.",
     color: "bg-primary",
   },
 ];
@@ -94,7 +94,7 @@ const HooksSection = () => {
           <h2 className="text-4xl md:text-6xl font-bold">
             NOT YOUR AVERAGE
             <span className="block bg-primary inline-block px-4 mt-2 border-4 border-foreground shadow-brutal">
-              AGENCY
+              SOCIAL MEDIA AGENCY
             </span>
           </h2>
         </motion.div>
@@ -119,7 +119,7 @@ const HooksSection = () => {
           >
             {[...Array(10)].map((_, i) => (
               <span key={i} className="text-2xl font-bold text-background">
-                SMM EXPERT ✦ VIDEOGRAPHY ✦ DIGITAL MARKETING ✦ KOZHIKODE ✦
+                SMM EXPERT ✦ REELS ✦ SOCIAL ADS ✦ KOZHIKODE ✦ KERALA ✦
               </span>
             ))}
           </motion.div>

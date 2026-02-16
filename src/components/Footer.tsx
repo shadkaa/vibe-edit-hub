@@ -33,8 +33,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-lg text-background/80 max-w-md mb-6">
-              Digital marketing & videography specialist based in Kozhikode. 
-              Helping brands grow with strategic SMM and stunning visuals.
+              Social media manager, digital marketer, and content creator based in Kozhikode, Kerala. 
+              Helping local businesses grow their brand online.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-12 h-12 bg-background text-foreground border-4 border-background flex items-center justify-center hover:bg-primary transition-colors">

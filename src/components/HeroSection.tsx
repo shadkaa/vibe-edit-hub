@@ -27,16 +27,17 @@ const HeroSection = () => {
               className="inline-block"
             >
               <span className="brutal-button bg-accent text-accent-foreground text-sm">
-                ✦ DIGITAL MARKETING & VIDEOGRAPHY
+                ✦ SOCIAL MEDIA MANAGEMENT & DIGITAL MARKETING
               </span>
             </motion.div>
 
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold leading-none">
-              <span className="block">GROW YOUR</span>
-              <span className="block text-stroke text-transparent">BRAND</span>
+              <span className="block">BEST SOCIAL</span>
+              <span className="block text-stroke text-transparent">MEDIA</span>
               <span className="block bg-primary inline-block px-4 border-4 border-foreground shadow-brutal transform -rotate-1">
-                ONLINE
+                MANAGER
               </span>
+              <span className="block text-2xl md:text-4xl lg:text-5xl mt-2">IN CALICUT & KERALA</span>
             </h1>
 
             <motion.p
@@ -45,8 +46,7 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-xl md:text-2xl text-muted-foreground max-w-lg"
             >
-              Digital marketing, social media management & stunning videography. 
-              Based in Kozhikode, serving brands worldwide.
+              Digital marketing and social media management that drives engagement, leads, and real local customers. Backed by strategic content planning and professional video editing.
             </motion.p>
 
             <motion.div
@@ -55,15 +55,15 @@ const HeroSection = () => {
               transition={{ delay: 0.6 }}
               className="flex flex-wrap gap-4"
             >
-              <a href="#projects">
+              <a href="https://wa.me/917356889027?text=Hello%20I'm%20interested%20in%20your%20Social%20Media%20Management%20services.%20Can%20we%20discuss%20how%20you%20can%20help%20my%20business%20grow" target="_blank" rel="noopener noreferrer">
                 <button className="brutal-button bg-secondary text-secondary-foreground flex items-center gap-2">
                   <Play size={20} fill="currentColor" />
-                  See Our Work
+                  Chat on WhatsApp
                 </button>
               </a>
-              <a href="#hooks">
+              <a href="#projects">
                 <button className="brutal-button bg-background text-foreground">
-                  Learn More
+                  See Our Work
                 </button>
               </a>
             </motion.div>
