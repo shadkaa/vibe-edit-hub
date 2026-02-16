@@ -5,58 +5,49 @@ import { ArrowUpRight, Play } from "lucide-react";
 
 export const projects = [
   {
-    id: "viral-reels",
-    title: "VIRAL REELS",
+    id: "restaurant-smm",
+    title: "RESTAURANT SMM",
     category: "Social Media",
-    client: "TechStartup Co.",
+    client: "Local Restaurant",
     thumbnail: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600",
     color: "bg-primary",
-    description: "A series of high-energy reels that generated over 2M views in the first week.",
+    description: "Social media growth for local restaurants — increased footfall and online orders through strategic content.",
   },
   {
-    id: "brand-story",
-    title: "BRAND STORY",
-    category: "Documentary",
-    client: "EcoWear Fashion",
+    id: "viral-reels-retail",
+    title: "VIRAL REELS",
+    category: "Reels & Shorts",
+    client: "Retail Business",
     thumbnail: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=600",
     color: "bg-secondary",
-    description: "An emotional brand documentary that tripled their conversion rate.",
+    description: "Viral reels for retail businesses that boosted brand visibility and engagement across Instagram.",
   },
   {
     id: "product-launch",
     title: "PRODUCT LAUNCH",
-    category: "Commercial",
-    client: "GadgetPro",
+    category: "Campaign",
+    client: "Kozhikode Startup",
     thumbnail: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=600",
     color: "bg-accent",
-    description: "Launch video that sold out their entire first batch in 24 hours.",
+    description: "Product launch campaigns for Kozhikode startups — from teaser content to full-scale rollout.",
   },
   {
-    id: "music-video",
-    title: "MUSIC VIDEO",
-    category: "Entertainment",
-    client: "Rising Artist",
+    id: "influencer-reels",
+    title: "WEEKLY REELS",
+    category: "Content Creation",
+    client: "Local Influencer",
     thumbnail: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600",
     color: "bg-primary",
-    description: "A visually stunning music video with 500K+ streams on YouTube.",
+    description: "Weekly reel content for local influencers — consistent, high-quality video editing on schedule.",
   },
   {
-    id: "podcast-clips",
-    title: "PODCAST CLIPS",
-    category: "Content Repurposing",
-    client: "ThinkTank Pod",
+    id: "brand-awareness",
+    title: "BRAND ADS",
+    category: "Advertising",
+    client: "Kerala Business",
     thumbnail: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600",
     color: "bg-secondary",
-    description: "Transformed long-form podcasts into viral short-form clips.",
-  },
-  {
-    id: "event-highlight",
-    title: "EVENT HIGHLIGHT",
-    category: "Events",
-    client: "Tech Conference",
-    thumbnail: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600",
-    color: "bg-accent",
-    description: "Dynamic event recap that captured the energy of 3000+ attendees.",
+    description: "Brand awareness ad campaigns for Kerala businesses that generated quality leads and local reach.",
   },
 ];
 
@@ -133,7 +124,7 @@ const ProjectsSection = () => {
             <h2 className="text-4xl md:text-6xl font-bold">
               PROJECTS THAT
               <span className="block bg-secondary inline-block px-4 mt-2 border-4 border-foreground shadow-brutal text-secondary-foreground">
-                SLAP
+                DELIVERED RESULTS
               </span>
             </h2>
           </div>
@@ -144,7 +135,7 @@ const ProjectsSection = () => {
             transition={{ delay: 0.3 }}
             className="text-xl text-muted-foreground max-w-md mt-6 md:mt-0"
           >
-            Each project is a testament to our obsession with quality and impact.
+            Projects that delivered results for local brands across Kozhikode and Kerala.
           </motion.p>
         </motion.div>
 

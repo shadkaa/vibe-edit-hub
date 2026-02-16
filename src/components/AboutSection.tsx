@@ -33,9 +33,9 @@ const AboutSection = () => {
             ✦ ABOUT US
           </span>
           <h2 className="text-4xl md:text-6xl font-bold">
-            THE TEAM BEHIND
+            ABOUT
             <span className="block bg-primary inline-block px-4 mt-2 border-4 border-foreground shadow-brutal">
-              THE MAGIC
+              MUHAMMED SHADIL
             </span>
           </h2>
         </motion.div>
@@ -75,20 +75,24 @@ const AboutSection = () => {
             className="space-y-8"
           >
             <p className="text-xl md:text-2xl leading-relaxed">
-              I'm <span className="bg-primary px-2 font-bold">Muhammed Shadil</span> - a digital marketing 
-              specialist and videographer based in Kozhikode, Kerala.
+              I am <span className="bg-primary px-2 font-bold">Muhammed Shadil</span>, a social media manager, 
+              digital marketer, and content creator based in Kozhikode, Kerala.
             </p>
             
             <p className="text-lg text-muted-foreground">
-              With expertise in social media management, content strategy, and professional 
-              videography, I help brands establish a powerful online presence that converts 
-              followers into customers.
+              I help business owners grow their brand online through strategic social media 
+              management, content creation, and professional video editing. My focus is on 
+              delivering content that attracts attention, builds trust, and converts followers into customers.
             </p>
 
-            <p className="text-lg text-muted-foreground">
-              From Instagram reels that go viral to complete brand campaigns, I deliver 
-              creative solutions that make your business stand out in the digital space.
-            </p>
+            <div className="flex flex-wrap gap-4">
+              <a href="https://muhammedshadilk.com/" target="_blank" rel="noopener noreferrer" className="brutal-button bg-accent text-accent-foreground text-sm">
+                🌐 muhammedshadilk.com
+              </a>
+              <a href="https://instagram.com/muhammed_shadil_" target="_blank" rel="noopener noreferrer" className="brutal-button bg-secondary text-secondary-foreground text-sm">
+                📸 @muhammed_shadil_
+              </a>
+            </div>
 
             {/* Values grid */}
             <div className="grid grid-cols-2 gap-4 pt-4">
