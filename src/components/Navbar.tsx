@@ -71,6 +71,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="brutal-button bg-muted text-foreground text-center"
                 onClick={() => setIsOpen(false)}
               >
