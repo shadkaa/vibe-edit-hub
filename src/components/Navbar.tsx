@@ -6,11 +6,12 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Services", href: "/#hooks" },
-    { name: "Work", href: "/#projects" },
-    { name: "Reviews", href: "/#reviews" },
-    { name: "About", href: "/#about" },
-    { name: "FAQ", href: "/#faq" },
+    { name: "Home", href: "https://muhammedshadilk.com/", external: true },
+    { name: "Services", href: "/#hooks", external: false },
+    { name: "Work", href: "/#projects", external: false },
+    { name: "Reviews", href: "/#reviews", external: false },
+    { name: "About", href: "/#about", external: false },
+    { name: "FAQ", href: "/#faq", external: false },
   ];
 
   return (
@@ -35,6 +36,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="brutal-button bg-background text-foreground hover:bg-primary text-sm"
               >
                 {link.name}
@@ -69,6 +71,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
+                {...(link.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 className="brutal-button bg-muted text-foreground text-center"
                 onClick={() => setIsOpen(false)}
               >
